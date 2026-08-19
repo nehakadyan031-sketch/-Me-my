@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Navneet ❤️</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#090006;
+    color:white;
+    overflow-x:hidden;
+}
+
+/* =========================
+   BACKGROUND
+========================= */
+
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(255,0,80,.18), transparent 30%),
+        radial-gradient(circle at 80% 30%, rgba(255,50,120,.15), transparent 30%),
+        radial-gradient(circle at 50% 90%, rgba(255,0,60,.15), transparent 35%);
+    pointer-events:none;
+    z-index:-2;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:18px 7%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(10,0,5,.75);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid rgba(255,80,130,.15);
+    z-index:1000;
+}
+
+.logo{
+    font-family:'Dancing Script', cursive;
+    font-size:28px;
+    color:#ff5c91;
+}
+
+.logo span{
+    color:white;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:14px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ff5c91;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:120px 20px 60px;
+    position:relative;
+}
+
+.hero-content{
+    max-width:1000px;
+}
+
+.small-title{
+    font-family:'Dancing Script', cursive;
+    font-size:34px;
+    color:#ffd1df;
+    animation:fadeDown 1.5s ease;
+}
+
+.hero h1{
+    font-family:'Dancing Script', cursive;
+    font-size:clamp(75px,12vw,150px);
+    color:#ff4f88;
+    text-shadow:
+        0 0 10px #ff316d,
+        0 0 30px #ff316d,
+        0 0 60px rgba(255,49,109,.5);
+    margin:5px 0;
+    animation:glow 2s infinite alternate;
+}
+
+.subtitle{
+    font-size:22px;
+    color:#eee;
+    margin-bottom:20px;
+}
+
+.subtitle span{
+    color:#ff6b99;
+}
+
+.line{
+    width:180px;
+    height:2px;
+    background:linear-gradient(90deg,transparent,#ff4f88,transparent);
+    margin:20px auto;
+}
+
+.question{
+    font-family:'Dancing Script', cursive;
+    font-size:48px;
+    margin-top:25px;
+}
+
+.question span{
+    color:#ff6195;
+}
+
+.hero-description{
+    margin:15px auto 30px;
+    max-width:600px;
+    color:#cfcfcf;
+    line-height:1.8;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    margin-top:35px;
+    position:relative;
+    min-height:100px;
+}
+
+.yes-btn{
+    border:none;
+    cursor:pointer;
+    padding:20px 45px;
+    border-radius:60px;
+    font-size:20px;
+    font-weight:600;
+    color:white;
+    background:linear-gradient(135deg,#ff174f,#ff5c91);
+    box-shadow:
+        0 0 20px rgba(255,50,100,.7),
+        0 0 50px rgba(255,50,100,.3);
+    transition:.3s;
+}
+
+.yes-btn:hover{
+    transform:scale(1.08);
+    box-shadow:
+        0 0 30px rgba(255,50,100,.9),
+        0 0 70px rgba(255,50,100,.5);
+}
+
+.no-btn{
+    position:relative;
+    border:none;
+    padding:18px 40px;
+    border-radius:60px;
+    font-size:18px;
+    color:#ddd;
+    background:#332a2d;
+    cursor:pointer;
+    transition:.15s;
+}
+
+/* =========================
+   LOVE CARDS
+========================= */
+
+.section{
+    padding:100px 7%;
+    text-align:center;
+}
+
+.section-title{
+    font-family:'Dancing Script', cursive;
+    font-size:55px;
+    color:#ff6a98;
+    margin-bottom:15px;
+}
+
+.section-subtitle{
+    color:#aaa;
+    margin-bottom:50px;
+}
+
+.cards{
+    max-width:1100px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.card{
+    padding:35px 25px;
+    background:rgba(255,255,255,.045);
+    border:1px solid rgba(255,100,150,.18);
+    border-radius:25px;
+    backdrop-filter:blur(10px);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    border-color:#ff5b91;
+    box-shadow:0 15px 40px rgba(255,50,100,.15);
+}
+
+.card-icon{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.card h3{
+    font-family:'Dancing Script', cursive;
+    font-size:30px;
+    color:#ff6a98;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#bbb;
+    line-height:1.8;
+}
+
+/* =========================
+   LOVE LETTER
+========================= */
+
+.letter-section{
+    padding:100px 20px;
+    display:flex;
+    justify-content:center;
+}
+
+.letter{
+    max-width:800px;
+    padding:50px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,80,130,.09),
+            rgba(255,255,255,.025)
+        );
+    border:1px solid rgba(255,100,150,.25);
+    border-radius:30px;
+    box-shadow:0 20px 80px rgba(255,0,70,.1);
+}
+
+.letter h2{
+    font-family:'Dancing Script', cursive;
+    color:#ff6a98;
+    font-size:50px;
+    margin-bottom:25px;
+}
+
+.letter p{
+    color:#ddd;
+    line-height:2;
+    font-size:17px;
+    margin-bottom:20px;
+}
+
+.signature{
+    font-family:'Dancing Script', cursive;
+    color:#ff6a98;
+    font-size:35px;
+    margin-top:30px;
+}
+
+/* =========================
+   FINAL PROPOSAL
+========================= */
+
+.proposal{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:80px 20px;
+    position:relative;
+}
+
+.proposal-box{
+    max-width:900px;
+    padding:70px 40px;
+    border-radius:35px;
+    background:rgba(255,20,70,.05);
+    border:1px solid rgba(255,80,130,.25);
+    box-shadow:0 0 80px rgba(255,0,80,.1);
+}
+
+.proposal-box h2{
+    font-family:'Dancing Script', cursive;
+    font-size:65px;
+    color:#ff5c91;
+}
+
+.proposal-box p{
+    color:#ccc;
+    margin:20px auto 35px;
+    max-width:600px;
+    line-height:1.8;
+}
+
+.final-heart{
+    font-size:80px;
+    animation:heartbeat 1.3s infinite;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    padding:30px;
+    text-align:center;
+    border-top:1px solid rgba(255,80,130,.1);
+    color:#777;
+}
+
+footer span{
+    color:#ff5c91;
+}
+
+/* =========================
+   FLOATING HEARTS
+========================= */
+
+.heart{
+    position:fixed;
+    bottom:-30px;
+    color:#ff4f88;
+    font-size:20px;
+    pointer-events:none;
+    animation:floatUp linear forwards;
+    z-index:999;
+}
+
+@keyframes floatUp{
+
+    0%{
+        transform:translateY(0) rotate(0deg);
+        opacity:0;
+    }
+
+    10%{
+        opacity:1;
+    }
+
+    100%{
+        transform:translateY(-110vh) rotate(360deg);
+        opacity:0;
+    }
+
+}
+
+@keyframes glow{
+
+    from{
+        text-shadow:
+        0 0 10px #ff316d,
+        0 0 25px #ff316d;
+    }
+
+    to{
+        text-shadow:
+        0 0 20px #ff316d,
+        0 0 50px #ff316d,
+        0 0 80px #ff316d;
+    }
+
+}
+
+@keyframes heartbeat{
+
+    0%,100%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.18);
+    }
+
+}
+
+@keyframes fadeDown{
+
+    from{
+        opacity:0;
+        transform:translateY(-30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+/* =========================
+   YES POPUP
+========================= */
+
+.popup{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.85);
+    display:none;
+    align-items:center;
+    justify-content:center;
+    z-index:5000;
+    padding:20px;
+}
+
+.popup-content{
+    background:#17060d;
+    border:1px solid #ff5c91;
+    border-radius:30px;
+    padding:55px 35px;
+    max-width:600px;
+    text-align:center;
+    box-shadow:
+        0 0 40px rgba(255,50,100,.5);
+    animation:popupIn .5s ease;
+}
+
+.popup-content .big-heart{
+    font-size:90px;
+}
+
+.popup-content h2{
+    font-family:'Dancing Script', cursive;
+    font-size:60px;
+    color:#ff5c91;
+}
+
+.popup-content p{
+    color:#ddd;
+    line-height:1.8;
+    margin:20px 0;
+}
+
+.close-btn{
+    padding:12px 30px;
+    border:none;
+    border-radius:30px;
+    background:#ff4f88;
+    color:white;
+    cursor:pointer;
+}
+
+@keyframes popupIn{
+
+    from{
+        transform:scale(.5);
+        opacity:0;
+    }
+
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:800px){
+
+    nav{
+        padding:15px 20px;
+    }
+
+    nav a{
+        display:none;
+    }
+
+    .hero{
+        padding-top:100px;
+    }
+
+    .small-title{
+        font-size:25px;
+    }
+
+    .hero h1{
+        font-size:75px;
+    }
+
+    .question{
+        font-size:38px;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    .letter{
+        padding:35px 25px;
+    }
+
+    .proposal-box{
+        padding:50px 20px;
+    }
+
+    .proposal-box h2{
+        font-size:48px;
+    }
+
+    .buttons{
+        min-height:180px;
+    }
+
+    .no-btn{
+        position:absolute;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+
+<nav>
+
+    <div class="logo">
+        ❤️ Forever <span>&</span> Always
+    </div>
+
+    <div>
+        <a href="#home">Home</a>
+        <a href="#reasons">Why You</a>
+        <a href="#letter">My Letter</a>
+        <a href="#proposal">Proposal</a>
+    </div>
+
+</nav>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="small-title">
+            To the love of my life...
+        </div>
+
+        <h1>Navneet</h1>
+
+        <div class="line"></div>
+
+        <div class="subtitle">
+            You make my world <span>complete.</span>
+        </div>
+
+        <p class="hero-description">
+
+            There are millions of people in this world,
+            but somehow my heart found you.
+
+            And now I don't want to imagine my life
+            without you in it. ❤️
+
+        </p>
+
+        <div class="question">
+
+            Will you marry me,
+            <span>Navneet?</span> 💍
+
+        </div>
+
+        <div class="buttons">
+
+            <button class="yes-btn" onclick="sayYes()">
+                YES! ❤️
+            </button>
+
+            <button class="no-btn" id="noBtn">
+                NO 😏
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     REASONS
+========================= -->
+
+<section class="section" id="reasons">
+
+    <h2 class="section-title">
+        Why You? ❤️
+    </h2>
+
+    <p class="section-subtitle">
+        Because loving you feels like the easiest decision I've ever made.
+    </p>
+
+
+    <div class="cards">
+
+        <div class="card">
+
+            <div class="card-icon">🥰</div>
+
+            <h3>Your Smile</h3>
+
+            <p>
+                Your smile can make even my worst day
+                feel like the most beautiful day.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-icon">❤️</div>
+
+            <h3>Your Heart</h3>
+
+            <p>
+                I love the person you are,
+                the way you care,
+                and the way you make me feel loved.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-icon">♾️</div>
+
+            <h3>Our Future</h3>
+
+            <p>
+                I don't just want moments with you.
+                I want mornings, evenings, adventures,
+                arguments, laughter and forever.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     LOVE LETTER
+========================= -->
+
+<section class="letter-section" id="letter">
+
+    <div class="letter">
+
+        <h2>
+            A little something from my heart...
+        </h2>
+
+        <p>
+            Dear Navneet,
+        </p>
+
+        <p>
+            I don't know if words will ever be enough
+            to explain how much you mean to me.
+        </p>
+
+        <p>
+            You became my favourite person,
+            my safe place,
+            my happiness,
+            and the person I want beside me
+            through every chapter of my life.
+        </p>
+
+        <p>
+            I want to laugh with you.
+            I want to travel with you.
+            I want to annoy you.
+            I want to grow old with you.
+        </p>
+
+        <p>
+            I want the ordinary days with you,
+            because somehow you make ordinary days
+            feel extraordinary.
+        </p>
+
+        <p>
+            So today, I have just one question...
+        </p>
+
+        <div class="signature">
+            Will you choose me forever? ❤️
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FINAL PROPOSAL
+========================= -->
+
+<section class="proposal" id="proposal">
+
+    <div class="proposal-box">
+
+        <div class="final-heart">
+            ❤️
+        </div>
+
+        <h2>
+            Navneet...
+        </h2>
+
+        <p>
+
+            I don't promise that life will always be perfect.
+
+            But I promise that I'll always choose you,
+            stand beside you,
+            laugh with you,
+            support you,
+            and love you.
+
+            <br><br>
+
+            Today, tomorrow,
+            and every day after that.
+
+        </p>
+
+        <h2>
+            Will you marry me? 💍
+        </h2>
+
+        <div class="buttons">
+
+            <button class="yes-btn" onclick="sayYes()">
+                YES, I WILL! ❤️
+            </button>
+
+            <button class="no-btn">
+                NO 😏
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     YES POPUP
+========================= -->
+
+<div class="popup" id="popup">
+
+    <div class="popup-content">
+
+        <div class="big-heart">
+            💖
+        </div>
+
+        <h2>
+            I KNEW IT!
+        </h2>
+
+        <p>
+
+            You just made me the happiest person
+            in the entire world. 🥹❤️
+
+            <br><br>
+
+            Navneet,
+            I love you more than words can ever explain.
+
+            <br><br>
+
+            Here's to our forever. 💍
+
+        </p>
+
+        <button class="close-btn" onclick="closePopup()">
+            ❤️ Forever & Always
+        </button>
+
+    </div>
+
+</div>
+
+
+<footer>
+
+    Made with <span>❤️</span> for Navneet
+
+    <br>
+
+    © Forever & Always
+
+</footer>
+
+
+<script>
+
+/* =========================
+   RUNNING NO BUTTON
+========================= */
+
+const noButtons = document.querySelectorAll(".no-btn");
+
+noButtons.forEach(button => {
+
+    function moveButton(){
+
+        const padding = 20;
+
+        const maxX =
+            window.innerWidth -
+            button.offsetWidth -
+            padding;
+
+        const maxY =
+            window.innerHeight -
+            button.offsetHeight -
+            padding;
+
+        const x =
+            Math.random() * Math.max(maxX, padding);
+
+        const y =
+            Math.random() * Math.max(maxY, padding);
+
+        button.style.position = "fixed";
+
+        button.style.left = x + "px";
+
+        button.style.top = y + "px";
+
+        button.style.zIndex = "9999";
+
+    }
+
+    button.addEventListener("mouseenter", moveButton);
+
+    button.addEventListener("mouseover", moveButton);
+
+    button.addEventListener("touchstart", function(e){
+
+        e.preventDefault();
+
+        moveButton();
+
+    });
+
+    button.addEventListener("click", function(e){
+
+        e.preventDefault();
+
+        moveButton();
+
+    });
+
+});
+
+
+/* =========================
+   YES BUTTON
+========================= */
+
+function sayYes(){
+
+    document.getElementById("popup").style.display = "flex";
+
+    createConfetti();
+
+    for(let i=0;i<30;i++){
+
+        setTimeout(createHeart,i*100);
+
+    }
+
+}
+
+
+/* =========================
+   CLOSE POPUP
+========================= */
+
+function closePopup(){
+
+    document.getElementById("popup").style.display = "none";
+
+}
+
+
+/* =========================
+   FLOATING HEARTS
+========================= */
+
+function createHeart(){
+
+    const heart =
+        document.createElement("div");
+
+    heart.className = "heart";
+
+    const hearts =
+        ["❤️","💖","💕","💗","💓","💘","💝"];
+
+    heart.innerHTML =
+        hearts[Math.floor(Math.random()*hearts.length)];
+
+    heart.style.left =
+        Math.random()*100 + "vw";
+
+    heart.style.fontSize =
+        (15 + Math.random()*25) + "px";
+
+    heart.style.animationDuration =
+        (4 + Math.random()*5) + "s";
+
+    document.body.appendChild(heart);
+
+    setTimeout(()=>{
+
+        heart.remove();
+
+    },9000);
+
+}
+
+
+/* Keep hearts floating */
+
+setInterval(createHeart,500);
+
+
+/* =========================
+   CONFETTI
+========================= */
+
+function createConfetti(){
+
+    const symbols =
+        ["❤️","💖","💕","✨","💍","🎉"];
+
+    for(let i=0;i<100;i++){
+
+        const confetti =
+            document.createElement("div");
+
+        confetti.innerHTML =
+            symbols[
+                Math.floor(
+                    Math.random()*symbols.length
+                )
+            ];
+
+        confetti.style.position="fixed";
+
+        confetti.style.left =
+            Math.random()*100+"vw";
+
+        confetti.style.top =
+            "-30px";
+
+        confetti.style.fontSize =
+            (15+Math.random()*25)+"px";
+
+        confetti.style.zIndex="10000";
+
+        confetti.style.pointerEvents="none";
+
+        const duration =
+            2 + Math.random()*4;
+
+        confetti.style.transition =
+            `top ${duration}s linear, transform ${duration}s linear`;
+
+        document.body.appendChild(confetti);
+
+        setTimeout(()=>{
+
+            confetti.style.top="110vh";
+
+            confetti.style.transform =
+                `rotate(${Math.random()*1000}deg)`;
+
+        },50);
+
+        setTimeout(()=>{
+
+            confetti.remove();
+
+        },duration*1000+500);
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>
